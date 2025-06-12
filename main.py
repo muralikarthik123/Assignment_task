@@ -1,5 +1,4 @@
-# output video is also display i hope this is the best i can do sir without using ai or other help and
-#i have given my best Thankyou"
+# output video is also display i hope this is the best i can do sir 
 import json
 
 with open('test.json', 'r') as file1:
