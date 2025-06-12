@@ -3,6 +3,7 @@ import json
 
 with open('test.json', 'r') as file1:
     data1 = json.load(file1)
+    
 print("========================================================>")
 print("To manully provide the data from the user Please Click 1 ")
 print("========================================================>")
@@ -26,9 +27,10 @@ if(m==1):
     print('Total Monthly Summary  is',b-e)
     
 if(m==2):
-    r=0
+    
 
     for i in data1:
+        r=0
         r=r+i["rent"]+i["Shopping"]+i["Food"]+i["Travel"]
         print("========================================================>")
         print("Total Monthly Summary",i["Name"],"the user have",i["Salary"]-r)
