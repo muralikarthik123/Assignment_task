@@ -14,7 +14,7 @@ if(m==1):
     e=0
     b=int(input('enter the Total month Income '))
     print("========================================================>")
-    g=int(input('enter the total number expences u want to add '))
+    g=int(input('enter the total number expences u want to add in digits '))
     print("========================================================>")
     for i in range(0,g):
         m=input("enter the expences like Rent or Shopping or Bills or Travel ")   
@@ -24,7 +24,17 @@ if(m==1):
             e=d+e
         else:
             print('Please enter the proper foramt and start from the starting ')     
-    print('Total Monthly Summary  is',b-e)
+    print("------------------------------------------>")
+    print("\n")
+    print("Monthy Expense Summary Tool:")
+    print("\n")
+    print("Total Month Income:",g)
+    print("\n")
+    print("Total Expenses:",e)
+    print("\n")
+    print("------------------------------------------>")
+    print("\n")
+    print("Remaining Balance:",b-e)
     
 if(m==2):
     
